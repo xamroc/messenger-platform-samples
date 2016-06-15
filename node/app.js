@@ -197,9 +197,7 @@ function receivedMessage(event) {
   var messageId = message.mid;
 
   // You may get a text or attachment but not both
-  // var messageText = message.text;
-  var messageText = "You want a Cheeseburger";
-
+  var messageText = message.text;
   var messageAttachments = message.attachments;
 
 
@@ -312,6 +310,7 @@ function sendImageMessage(recipientId) {
  *
  */
 function sendTextMessage(recipientId, messageText) {
+  var messageText = "You want a Cheeseburger!";
   var messageData = {
     recipient: {
       id: recipientId
