@@ -197,7 +197,9 @@ function receivedMessage(event) {
   var messageId = message.mid;
 
   // You may get a text or attachment but not both
-  var messageText = message.text;
+  // var messageText = message.text;
+  var messageText = "You want a Cheeseburger";
+
   var messageAttachments = message.attachments;
 
 
