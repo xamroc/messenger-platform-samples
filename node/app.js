@@ -219,6 +219,10 @@ function receivedMessage(event) {
         sendGenericMessage(senderID);
         break;
 
+      case 'I want a cheeseburger':
+        sendGenericMessage(senderID);
+        break;
+
       case 'receipt':
         sendReceiptMessage(senderID);
         break;
