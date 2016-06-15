@@ -370,28 +370,28 @@ function sendGenericMessage(recipientId) {
         payload: {
           template_type: "generic",
           elements: [{
-            title: "rift",
-            subtitle: "Next-generation virtual reality",
-            item_url: "https://www.oculus.com/en-us/rift/",               
-            image_url: "http://messengerdemo.parseapp.com/img/rift.png",
+            title: "Cheeseburger",
+            subtitle: "The answer to Tuesdays",
+            item_url: "http://www.mcdonalds.com/us/en/food/product_nutrition.burgerssandwiches.3.cheeseburger.html",
+            image_url: "http://www.burgerweb.com/wp-content/uploads/2015/09/cheeseburger.jpg",
             buttons: [{
               type: "web_url",
-              url: "https://www.oculus.com/en-us/rift/",
-              title: "Open Web URL"
+              url: "http://www.mcdonalds.com/us/en/food/product_nutrition.burgerssandwiches.3.cheeseburger.html",
+              title: "Learn More"
             }, {
               type: "postback",
               title: "Call Postback",
               payload: "Payload for first bubble",
             }],
           }, {
-            title: "touch",
-            subtitle: "Your Hands, Now in VR",
-            item_url: "https://www.oculus.com/en-us/touch/",               
-            image_url: "http://messengerdemo.parseapp.com/img/touch.png",
+            title: "Fries",
+            subtitle: "Tuesday is complete",
+            item_url: "http://www.mcdonalds.com/us/en/your_questions/our_food/what-are-the-ingredients-in-your-fries.html",
+            image_url: "https://secure.static.tumblr.com/07a173112a29a72d85d5e21fcb705e9e/tdbhgoa/655n845hf/tumblr_static_tumblr_static_1xmt88eend0goccssk084csg8_640.jpg",
             buttons: [{
               type: "web_url",
-              url: "https://www.oculus.com/en-us/touch/",
-              title: "Open Web URL"
+              url: "http://www.mcdonalds.com/us/en/your_questions/our_food/what-are-the-ingredients-in-your-fries.html",
+              title: "Learn More"
             }, {
               type: "postback",
               title: "Call Postback",
